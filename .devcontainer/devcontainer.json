@@ -16,7 +16,23 @@
         "editor.formatOnType": true,
         "editor.mouseWheelZoom": true,
         "files.autoSave": "afterDelay",
-        "cSpell.words": ["USEPOLLING"]
+        "cSpell.words": [
+            "USEPOLLING",
+            "autoimport",
+            "azuretools",
+            "codestackr",
+            "coenraads",
+            "dbaeumer",
+            "errorlens",
+            "esbenp",
+            "kohler",
+            "marquesmps",
+            "maxvanderschee",
+            "naumovs",
+            "steoates",
+            "streetsidesoftware",
+            "usernamehw"
+        ]
     },
 
     // Add the IDs of extensions you want installed when the container is created.
@@ -32,7 +48,9 @@
         "christian-kohler.path-intellisense",
         "maxvanderschee.web-accessibility",
         "codestackr.codestackr-theme",
-        ("esbenp.prettier-vscode", "usernamehw.errorlens")
+        "esbenp.prettier-vscode",
+        "usernamehw.errorlens",
+        "ms-azuretools.vscode-docker"
     ],
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
