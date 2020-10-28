@@ -9,7 +9,7 @@
     // Set *default* container specific settings.json values on container create.
     "settings": {
         "terminal.integrated.shell.linux": "/bin/zsh",
-        "workbench.colorTheme": "Github Light Theme - Gray",
+        "workbench.colorTheme": "codeSTACKr Theme",
         "editor.fontSize": 16,
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
@@ -31,7 +31,7 @@
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
         "maxvanderschee.web-accessibility",
-        "hyzeta.vscode-theme-github-light",
+        "codestackr.codestackr-theme",
         "esbenp.prettier-vscode"
     ],
 
