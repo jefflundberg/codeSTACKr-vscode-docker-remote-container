@@ -1,37 +1,39 @@
 {
-	"name": "Node.js",
-	"build": {
-		"dockerfile": "Dockerfile",
-		// Update 'VARIANT' to pick a Node version: 10, 12, 14
-		"args": { "VARIANT": "14" }
-	},
+    "name": "Node.js",
+    "build": {
+        "dockerfile": "Dockerfile",
+        // Update 'VARIANT' to pick a Node version: 10, 12, 14
+        "args": { "VARIANT": "14" }
+    },
 
-	// Set *default* container specific settings.json values on container create.
-	"settings": {
-		"terminal.integrated.shell.linux": "/bin/zsh"
-	},
+    // Set *default* container specific settings.json values on container create.
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh"
+    },
 
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"dbaeumer.vscode-eslint",
-		"coenraads.bracket-pair-colorizer-2",
-		"steoates.autoimport",
-		"streetsidesoftware.code-spell-checker",
-		"naumovs.color-highlight",
-		"marquesmps.dockerfile-validator",
-		"eg2.vscode-npm-script",
-		"christian-kohler.npm-intellisense",
-		"christian-kohler.path-intellisense",
-		"maxvanderschee.web-accessibility"
-	],
+    // Add the IDs of extensions you want installed when the container is created.
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "coenraads.bracket-pair-colorizer-2",
+        "steoates.autoimport",
+        "streetsidesoftware.code-spell-checker",
+        "naumovs.color-highlight",
+        "marquesmps.dockerfile-validator",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "maxvanderschee.web-accessibility"
+    ],
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [3000],
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [3000],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install",
-	
+    // Use 'postCreateCommand' to run commands after the container is created.
+    "postCreateCommand": "npm install",
 
-	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
-	// "remoteUser": "node"
+    // Container Environment Variables
+    "containerEnv": { "CHOKIDAR_USEPOLLING": "true" }
+
+    // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+    // "remoteUser": "node"
 }
