@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I’m in a container 🐳
+          I’m in a container 🐳 📦
         </p>
         <a
           className="App-link"
