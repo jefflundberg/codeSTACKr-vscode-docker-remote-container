@@ -32,7 +32,7 @@
         "christian-kohler.path-intellisense",
         "maxvanderschee.web-accessibility",
         "codestackr.codestackr-theme",
-        "esbenp.prettier-vscode"
+        ("esbenp.prettier-vscode", "usernamehw.errorlens")
     ],
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.

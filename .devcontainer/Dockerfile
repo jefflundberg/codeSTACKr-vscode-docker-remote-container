@@ -16,3 +16,4 @@ COPY .zshrc /root/.zshrc
 
 # [Optional] Uncomment if you want to install more global node modules
 # RUN sudo -u node npm install -g <your-package-list-here>
+RUN sudo -u node npm install -g eslint
