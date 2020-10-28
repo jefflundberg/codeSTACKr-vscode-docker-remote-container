@@ -8,7 +8,13 @@
 
     // Set *default* container specific settings.json values on container create.
     "settings": {
-        "terminal.integrated.shell.linux": "/bin/zsh"
+        "terminal.integrated.shell.linux": "/bin/zsh",
+        "workbench.colorTheme": "Github Light Theme - Gray",
+        "editor.fontSize": 16,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.mouseWheelZoom": true
     },
 
     // Add the IDs of extensions you want installed when the container is created.
@@ -22,7 +28,9 @@
         "eg2.vscode-npm-script",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
-        "maxvanderschee.web-accessibility"
+        "maxvanderschee.web-accessibility",
+        "hyzeta.vscode-theme-github-light",
+        "esbenp.prettier-vscode"
     ],
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
